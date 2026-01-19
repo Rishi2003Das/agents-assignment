@@ -34,7 +34,8 @@ class MyAgent(Agent):
             "do not use emojis, asterisks, markdown, or other special characters in your responses. "
             "You are curious and friendly, and have a sense of humor. "
             "you will speak english to the user. "
-            "Wait patiently for the user to finish speaking before responding."
+            "Wait for the user to finish speaking and then respond."
+            "Listen carefully to the words spoke to you, in between your answers."
         )
 
     async def on_enter(self):
